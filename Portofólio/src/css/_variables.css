@@ -19,7 +19,17 @@
   --fontWeightRegular: 400;
   --fontWeightMedium: 500;
   --fontWeightBold: 700;
+
+  /*Media Queries*/
+  --media-xs: 0px;      /* telemóveis */
+  --media-sm: 576px;    /* telemóveis grandes */
+  --media-md: 769px;    /* tablets */
+  --media-lg: 992px;    /* laptops */
+  --media-xl: 1200px;   /* desktops */
+  --media-xxl: 1440px;  /* ecrãs grandes */
 }
+
+
 
 html[data-theme="light"] {
   --background: var(--white);
