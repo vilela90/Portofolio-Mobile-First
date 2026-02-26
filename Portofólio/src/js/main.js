@@ -34,3 +34,30 @@ function toggleDarkMode() {
     setTheme("dark");
   }
 }
+
+function openMenuMobile() {
+  //Encontra o Elemento 
+  const drawermenu = document.querySelector(".drawermenu");
+
+  //Verifica se o Elemento existe
+  if (!drawermenu) return 
+
+  //Executa a ação
+
+  //Adiciona a classe "open" para exibir o menu
+  drawermenu.classList.add("opened");
+}
+
+
+function closeMenuMobile() {
+  //Encontra o Elemento 
+  const drawermenu = document.querySelector(".drawermenu");
+
+  //Verifica se o Elemento existe
+  if (!drawermenu) return 
+
+  //Executa a ação
+
+  //Remover a class opened
+  drawermenu.classList.remove("opened");
+}
